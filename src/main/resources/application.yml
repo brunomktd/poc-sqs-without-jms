@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: <ACCESS_KEY>
+      secret-key: <SECRET_KEY>
+    end-point:
+      uri: <QUEUE_URL>
+
+
+server:
+  port: 8083
